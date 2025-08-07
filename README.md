@@ -32,8 +32,7 @@ Path parameter:
 
 Successful response (HTTP 200\) is a JSON array where each item contains:  
 \- name: repository name  
-\- owner.login: repository owner’s GitHub username  
-\- fork: indicates if the repo is a fork (always false)  
+\- owner.login: repository owner’s GitHub username   
 \- branches: a list of branch objects, each with:  
   \- name: branch name  
   \- lastCommitSha: SHA of the latest commit
@@ -44,11 +43,10 @@ GET http://localhost:8080/github/octocat
 Example response:  
 \[  
   {  
-    "name": "Hello-World",  
-    "owner": { "login": "octocat" },  
-    "fork": false,  
+    "name: " "Hello-World",  
+    "owner login: " "octocat" },  
     "branches": \[  
-      { "name": "main", "lastCommitSha": "a1b2c3d4..." }  
+      { "name: " "main", "lastCommitShaa: " "a1b2c3d4..." }  
     \]  
   }  
 \]
