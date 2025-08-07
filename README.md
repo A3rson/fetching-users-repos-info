@@ -84,9 +84,3 @@ src/
       model/BranchDto.java  
   test/java/com/tests/githubapi/  
     GitHubIntegrationTest.java
-
-## **Future Directions**
-
-\- Add GitHub authentication to increase API rate limits  
-\- Implement caching of API results  
-\- Handle pagination for users with many repositories
